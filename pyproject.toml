@@ -1,12 +1,13 @@
-Kaggle_Playground_Series_S4E9
-name = "model-deployment-2"
+[project]
+name = "kaggle-playground-series-s4e9"
 version = "0.1.0"
 requires-python = ">=3.10, <3.11"
 dependencies = [
-    "joblib==1.2.0",
-    "numpy==1.24.3",
-    "scikit-learn==1.2.2",
-    "streamlit>=1.55.0",
-    "matplotlib",
-    "seaborn"
+    "numpy>=1.25.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "xgboost>=2.0.0",
+    "joblib>=1.3.0",
+    "plotly>=5.20.0",
+    "streamlit>=1.50.0",
 ]
