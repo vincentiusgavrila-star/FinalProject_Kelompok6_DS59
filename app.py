@@ -884,7 +884,7 @@ else:
         Empat kandidat algoritma dibandingkan via 5-fold cross-validation: Linear/Ridge
         Regression sebagai baseline, lalu tree-based ensemble (XGBoost, LightGBM,
         CatBoost). **XGBoost** dipilih sebagai model final setelah hyperparameter tuning
-        (GridSearchCV) mencapai **Val R² = 0.7127** dan **MAE = $12,514**
+        (GridSearchCV) mencapai **Val R² = 0.7217** dan **MAE = $12,514**
         pada data validasi (target di-log-transform dengan `log1p` untuk menstabilkan
         distribusi harga yang sangat skewed)
         """
