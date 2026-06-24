@@ -819,7 +819,7 @@ else:
     st.markdown(
         """
         ### Latar Belakang
-        Dataset ini berasal dari **Kaggle Competition Playground Series Season 4, Episode 9
+        Dataset ini berasal dari **Kaggle Competition Playground Series Season 4 Episode 9
         (Regression of Used Car Prices)**, dataset sintetis yang terkenal sangat berisik
         (*noisy*): banyak kombinasi brand model yang tidak masuk akal, serta sejumlah
         baris dengan harga yang jelas-jelas *placeholder* (misalnya brand non-mewah
